@@ -1,11 +1,4 @@
-# variables in python
-
-
-# Variables are containers for storing data values
-# Python has no command for declaring a variable
-# Variables do not need to be declared with any particular type,
-# and can even change type after they have been set.
-
+# variables and Datatype in python:
 
 name = "Tejas"
 rollno = 7
@@ -17,7 +10,27 @@ print("Roll Number: ",rollno)
 print("Marks Obtain: ",marks)
 print("Eligible or not: ",eligibility)
 
+# Checking type of a data using type() function 
+
 print(type(name))
 print(type(rollno))
 print(type(marks))
 print(type(eligibility))
+
+
+# Many Values to Multiple Variables
+
+num1, num2, num3 = 10, 20, 30
+
+print(num1)
+print(num2)
+print(num3)
+
+
+# One Value to Multiple Variables
+
+num1 = num2 = num3 = 100
+
+print(num1)
+print(num2)
+print(num3)
