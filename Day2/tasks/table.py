@@ -1,4 +1,4 @@
-# multiplication table using for
+# table using for
 
 num = int(input("Enter a number to generate table: "))
 
